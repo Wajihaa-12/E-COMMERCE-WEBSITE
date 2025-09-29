@@ -13,7 +13,6 @@ import Contact from './pages/Contact'
 import Homes from './import/Homes'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
-import SignUp from './pages/SignUp'
 import { ToastContainer, toast } from 'react-toastify';
 
 
@@ -36,7 +35,6 @@ function App() {
         <Route path='/orders' element={<Orders />} />
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<SignUp />} />
       </Routes>
       <Footer />
     </div>
